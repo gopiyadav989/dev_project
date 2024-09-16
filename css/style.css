@@ -57,6 +57,10 @@ body {
     justify-content: space-between;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -84,4 +88,40 @@ body {
 
 #navbar li a.active {
     color: red;
+}
+
+#feature {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .featureBox {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 15px;
+}
+
+#feature .featureBox:hover {
+    box-shadow: 10px 10px 60px rgb(70, 62, 221, 0.2);
+}
+
+#feature .featureBox img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .featureBox h6 {
+    display: inline;
+    padding: 9px 8px 8px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: black;
 }
