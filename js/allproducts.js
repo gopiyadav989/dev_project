@@ -24,10 +24,14 @@ function displayProducts(products) {
 
         productBox.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
-            <h2>${product.name}</h2>
+            <h5>${product.name}</h5>
             <p>${product.desc}</p>
-            <p>Price: ₹${product.price}</p>
-            <button onclick="addToCart(${product.productId})">Add to Cart</button>
+            <div>
+                <h4>Price: ₹${product.price}</h4>
+                <button onclick="addToCart(${product.productId})">Add to Cart</button>
+            </div>
+            
+            
         `;
         
         container.appendChild(productBox);

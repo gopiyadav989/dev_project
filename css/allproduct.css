@@ -1,18 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: black;
 }
 
 h1 {
-    margin: 20px 0;
+    margin: 20px 40px;
+    line-height: 55px;
+    color:#fff;
 }
 
 .product-container {
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -21,25 +27,56 @@ h1 {
 
 .product-box {
     border: 1px solid #ccc;
-    padding: 10px;
-    width: 200px;
+    margin: 25px;
+    padding: 10px 12px;
+    width: 23%;
+    min-width: 250px;
+    height: 490px;
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* transition: 0.2s ease; */
 }
+
+/* .product-box:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+} */
+
+.product-box h5 {
+    font-size:medium;
+}
+
+.product-box p {
+    font-size:small;
+    margin: 5px;
+}
+
+.product-box h4 {
+    font-size:small;
+    margin-top: 8px;
+}
+
 
 .product-box img {
     width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid red;
+    border-radius: 20px;
     margin-bottom: 10px;
+
+}
+
+.product-box div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 40px;
 }
 
 .product-box button {
     margin-top: 10px;
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: red;
     color: #fff;
     border: none;
     border-radius: 5px;
