@@ -22,15 +22,17 @@ function displayProducts(products) {
         const productBox = document.createElement('div');
         productBox.className = 'product-box';
 
+        // Wrap the product box in a link
         productBox.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <h5>${product.name}</h5>
-            <p>${product.desc}</p>
-            <div>
-                <h4>Price: ₹${product.price}</h4>
-                <button onclick="addToCart(${product.productId})">Add to Cart</button>
-            </div>
-            
+            <a href="product.html?productId=${product.productId}">
+                <img src="${product.images[0]}" alt="${product.name}">
+                <h5>${product.name}</h5>
+                <p>${product.desc}</p>
+                <div>
+                    <h4>Price: ₹${product.price}</h4>
+                    <button onclick="addToCart(event, ${product.productId})">Add to Cart</button>
+                </div>
+            </a>
             
         `;
         
@@ -39,7 +41,10 @@ function displayProducts(products) {
 }
 
 
-function addToCart(productId) {
+function addToCart(event, productId) {
+
+    event.preventDefault();
+
     // get the entire object in product by matching it wiht productId;
     const product = products.find(p => p.productId === productId);
 
