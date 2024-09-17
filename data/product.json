@@ -1,0 +1,163 @@
+[
+    {
+      "productId": 1,
+      "name": "Classic T-shirt",
+      "desc": "Comfortable cotton t-shirt in various colors.",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/trouser/r/k/5/30-phtr000026-highlander-original-imagua3nckfuzzgw.jpeg?q=70&crop=false",
+      "clothType": "T-shirt",
+      "price": 499
+    },
+    {
+      "productId": 2,
+      "name": "Slim Fit Jeans",
+      "desc": "Denim jeans with a slim fit and modern look.",
+      "image": "jeans1.jpg",
+      "clothType": "Jeans",
+      "price": 1199
+    },
+    {
+      "productId": 3,
+      "name": "V-Neck Sweater",
+      "desc": "Warm woolen sweater with a stylish v-neck.",
+      "image": "sweater1.jpg",
+      "clothType": "Sweater",
+      "price": 799
+    },
+    {
+      "productId": 4,
+      "name": "Casual Shirt",
+      "desc": "Lightweight casual shirt perfect for daily wear.",
+      "image": "shirt1.jpg",
+      "clothType": "Shirt",
+      "price": 699
+    },
+    {
+      "productId": 5,
+      "name": "Denim Jacket",
+      "desc": "Classic denim jacket with button closure.",
+      "image": "jacket1.jpg",
+      "clothType": "Jacket",
+      "price": 1999
+    },
+    {
+      "productId": 6,
+      "name": "Cargo Pants",
+      "desc": "Durable cargo pants with multiple pockets.",
+      "image": "pants1.jpg",
+      "clothType": "Pants",
+      "price": 1299
+    },
+    {
+      "productId": 7,
+      "name": "Hooded Sweatshirt",
+      "desc": "Soft hoodie with a drawstring hood.",
+      "image": "hoodie1.jpg",
+      "clothType": "Sweatshirt",
+      "price": 899
+    },
+    {
+      "productId": 8,
+      "name": "Leather Jacket",
+      "desc": "Genuine leather jacket with a sleek design.",
+      "image": "jacket2.jpg",
+      "clothType": "Jacket",
+      "price": 3999
+    },
+    {
+      "productId": 9,
+      "name": "Floral Dress",
+      "desc": "Beautiful floral print dress for summer.",
+      "image": "dress1.jpg",
+      "clothType": "Dress",
+      "price": 1499
+    },
+    {
+      "productId": 10,
+      "name": "Graphic T-shirt",
+      "desc": "Trendy t-shirt with a bold graphic design.",
+      "image": "tshirt2.jpg",
+      "clothType": "T-shirt",
+      "price": 599
+    },
+    {
+      "productId": 11,
+      "name": "Skinny Jeans",
+      "desc": "Stretchable skinny jeans for a modern look.",
+      "image": "jeans2.jpg",
+      "clothType": "Jeans",
+      "price": 1099
+    },
+    {
+      "productId": 12,
+      "name": "Polo Shirt",
+      "desc": "Classic polo shirt in various colors.",
+      "image": "shirt2.jpg",
+      "clothType": "Shirt",
+      "price": 799
+    },
+    {
+      "productId": 13,
+      "name": "Bomber Jacket",
+      "desc": "Stylish bomber jacket with ribbed cuffs.",
+      "image": "jacket3.jpg",
+      "clothType": "Jacket",
+      "price": 2599
+    },
+    {
+      "productId": 14,
+      "name": "Chino Pants",
+      "desc": "Comfortable and stylish chino pants.",
+      "image": "pants2.jpg",
+      "clothType": "Pants",
+      "price": 999
+    },
+    {
+      "productId": 15,
+      "name": "Oversized Hoodie",
+      "desc": "Cozy oversized hoodie for a relaxed fit.",
+      "image": "hoodie2.jpg",
+      "clothType": "Sweatshirt",
+      "price": 1199
+    },
+    {
+      "productId": 16,
+      "name": "Maxi Dress",
+      "desc": "Elegant maxi dress with a flowing design.",
+      "image": "dress2.jpg",
+      "clothType": "Dress",
+      "price": 1799
+    },
+    {
+      "productId": 17,
+      "name": "Striped T-shirt",
+      "desc": "Casual striped t-shirt made from soft fabric.",
+      "image": "tshirt3.jpg",
+      "clothType": "T-shirt",
+      "price": 549
+    },
+    {
+      "productId": 18,
+      "name": "Distressed Jeans",
+      "desc": "Trendy distressed jeans with a vintage look.",
+      "image": "jeans3.jpg",
+      "clothType": "Jeans",
+      "price": 1399
+    },
+    {
+      "productId": 19,
+      "name": "Checked Shirt",
+      "desc": "Classic checked shirt for a casual look.",
+      "image": "shirt3.jpg",
+      "clothType": "Shirt",
+      "price": 849
+    },
+    {
+      "productId": 20,
+      "name": "Puffer Jacket",
+      "desc": "Warm puffer jacket with a zip-up front.",
+      "image": "jacket4.jpg",
+      "clothType": "Jacket",
+      "price": 3499
+    }
+  ]
+  
