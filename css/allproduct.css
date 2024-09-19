@@ -92,12 +92,11 @@ h1{
         display: none;
         width: 30%;
         position: absolute;
-        top: 60px;
+        top: 61px;
         right: 0;
         background: #ffffff;
         z-index: 5;
         border-radius: 0px 0px 0px 70px;
-        margin-top: 1px;
     }
 
     #navbar {
@@ -108,7 +107,7 @@ h1{
     }
 
     #navbar li {
-        padding: 15px 0;
+        padding: 8px 0;
     }
 
     #navbar li a {

@@ -35,7 +35,13 @@ function displayProductDetails(product, products) {
             <h2>${product.name}</h2>
             <h5>${product.desc}</h5>
             <h4>Price: ₹${product.price}</h4>
-            <input type="number" value="1" min="1">
+            <select id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
             <button onclick="addToCart(${product.productId})">Add to Cart</button>
             <h3>Description:</h3>
             <p>${product.desc2}<p>
@@ -51,15 +57,18 @@ function mainImageToggle(imageUrl) {
 function addToCart(productId) {
   const product = products.find((p) => p.productId === productId);
 
+  const quantitySelect = document.getElementById("quantity");
+  const selectedQuantity = parseInt(quantitySelect.value);
+
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   const existingProduct = cart.find(
     (item) => item.productId === product.productId,
   );
 
   if (existingProduct) {
-    existingProduct.quantity += 1;
+    existingProduct.quantity += selectedQuantity;
   } else {
-    cart.push({ ...product, quantity: 1 });
+    cart.push({ ...product, quantity: selectedQuantity });
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
