@@ -1,50 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Spartan", sans-serif;
-}
-
-h1 {
-    font-size: 50px;
-    line-height: 64px;
-    color: #222;
-}
-
-h2 {
-    font-size: 46px;
-    line-height: 54px;
-    color: #222;
-}
-
-h4 {
-    font-size: 20px;
-    color: #222;
-}
-
-h6 {
-    font-weight: 700;
-    font-size: 12px;
-}
-
-p {
-    font-size: 16px;
-    color: #465b52;
-    margin: 15px 0 20px 0;
-}
-
-.section-p1 {
-    padding: 40px;
-}
-
-.section-m1 {
-    margin: 40px 0;
 }
 
 body {
-    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
 }
+
 
 .logo {
     font-size: 35px;
@@ -57,21 +24,36 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 10;
     position: sticky;
     top: 0;
     left: 0;
+    background: #ffffff;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+
+.burger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.3s;
 }
 
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    list-style: none;
 }
 
 #navbar li {
-    list-style: none;
     padding: 0 20px;
 }
 
@@ -80,22 +62,62 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: black;
-}
-
-#navbar li a:hover {
-    color: red;
     transition: 0.3s ease-in-out;
 }
 
+#navbar li a:hover,
 #navbar li a.active {
     color: red;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    #header {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    #navbar-container {
+        display: none;
+        width: 30%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #ffffff;
+        z-index: 5;
+        border-radius: 0px 0px 0px 70px;
+        margin-top: 1px;
+    }
+
+    #navbar {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #navbar li {
+        padding: 15px 0;
+    }
+
+    #navbar li a {
+        font-size: 18px;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
+
+#navbar-container.active {
+    display: block;
 }
 
 #feature {
     padding: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 
