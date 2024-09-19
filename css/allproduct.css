@@ -7,15 +7,20 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
+    background-color: #f1f9f9;
     color: #343a40;
     padding: 20px;
 }
 
 h1{
     margin: 20px 0px 0px 50px;
-    z-index: 8;
-    position: sticky;
+}
+
+@media (max-width: 768px) {
+    h1{
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
 }
 
 .logo {
@@ -29,6 +34,7 @@ h1{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
+    border-radius: 4px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 10;
     position: sticky;
