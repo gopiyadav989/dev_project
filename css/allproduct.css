@@ -137,7 +137,7 @@ h1{
     padding: 10px 12px;
     width: 23%;
     min-width: 250px;
-    height: auto; /* Auto height to adapt to content */
+    height: auto;
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
@@ -165,7 +165,7 @@ h1{
 
 .product-box img {
     width: 100%;
-    height: auto; /* Ensure image height adjusts properly */
+    height: auto; 
     border: 1px solid red;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -175,7 +175,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 20px; /* Adjust margin for better alignment */
+    margin: 0px 20px;
 }
 
 .product-box button {
@@ -192,15 +192,68 @@ h1{
     background-color: #0056b3;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
     .product-box {
-        width: 45%; /* Adjust width for tablets */
+        width: 45%; 
     }
 }
 
 @media (max-width: 480px) {
     .product-box {
-        width: 100%; /* Adjust width for mobile */
+        width: 100%;
+    }
+}
+
+
+.filters {
+    margin: 20px auto; 
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    max-width: 778px;
+}
+
+.filters label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.filters select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+@media (max-width: 625px) {
+    
+    .filters {
+        height: 60px;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    .filters div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .filters label {
+        font-size: 13px;
+    }
+    .filters select {
+        font-size: 12px;
+        width: 110px;
+        height: 25px;
+        padding: 3px;
     }
 }
