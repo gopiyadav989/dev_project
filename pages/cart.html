@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <section id="header">
+        <a href="index.html" class="logo">CoolKart</a>
+        <div id="burger-menu" class="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div id="navbar-container">
+            <ul id="navbar">
+                <li><a href="allproduct.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="active"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <h1>Cart.</h1>
+    <div id="cartContainer">
+        
+    </div>
+    <div id="cartSummary">
+        <h3><span id="cartTotal"></span></h3>
+        <a href="checkout.html"><button id="checkoutBtn">Checkout</button></a>
+    </div>
+
+    <script src="../js/cart.js"></script>
+</body>
+</html>
