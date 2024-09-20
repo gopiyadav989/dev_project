@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Checkout</title>
+        <link rel="stylesheet" href="../css/checkout.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <section id="header">
+            <a href="index.html" class="logo">CoolKart</a>
+            <div id="burger-menu" class="burger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div id="navbar-container">
+                <ul id="navbar">
+                    <li><a href="allproduct.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="cart.html" class="active"
+                            ><i class="fa-solid fa-cart-shopping"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <h1>Checkout.</h1>
+
+        <div id="orderSummary">
+            <h3>Order Summary</h3>
+            <div id="productList"></div>
+            <div id="grandTotal"></div>
+        </div>
+
+        <div id="addressSection">
+            <h3>Delivery Address</h3>
+            <form id="checkoutForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <br />
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required />
+                <br />
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required />
+                <br />
+                <label for="postalCode">Postal Code:</label>
+                <input type="text" id="postalCode" name="postalCode" required />
+                <br />
+                <button type="submit" id="placeOrderBtn">Place Order</button>
+            </form>
+        </div>
+
+        <script src="../js/checkout.js"></script>
+    </body>
+</html>
