@@ -12,7 +12,6 @@ body {
     padding: 20px;
 }
 
-
 .logo {
     font-size: 35px;
     font-weight: 800;
@@ -116,12 +115,12 @@ body {
     padding: 40px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 #feature .featureBox {
-    width: 180px;
+    width:30% ;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);

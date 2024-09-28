@@ -36,7 +36,7 @@ orderHistory.forEach(order => {
             <p>Date: ${new Date(order.date).toLocaleString()}</p>
             </div>
             ${products}
-            <h4>Total: $${order.total}</h4>
+            <h4>Total: ₹${order.total}</h4>
         </div>
     `;
 });

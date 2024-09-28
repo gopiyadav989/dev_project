@@ -1,283 +1,302 @@
 [
-    {
-      "productId": 1,
-      "name": "Classic T-shirt",
-      "desc": "Comfortable cotton t-shirt in various colors.",
-      "desc2": "This oversized, relaxed fit longline t-shirt features a brand logo typography print and is perfect for casual wear. The relaxed fit will make you feel at ease, while the longline and drop shoulder sleeves are always a great option for anyone who wants to feel free and relaxed. This amazing t-shirt is from the collection and can be paired with blue ribbed jeans and sneakers for a casual outing. This brand logo typography printed t-shirt is a must-have in your wardrobe collection. Have all the fun with this comfortable oversized t-shirt and wear your style with a touch of fashion and comfort.",
-      "images": [
-        "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/j/p/v/l-os-100-vdorgnl-nvy-veirdo-original-imah256cvtzjwn5r.jpeg?q=70&crop=false",
-        "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/t/5/d/l-os-100-vdorgnl-nvy-veirdo-original-imah256ckqzvwrre.jpeg?q=70&crop=false",
-        "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/n/c/s/l-os-100-vdorgnl-nvy-veirdo-original-imah256cghzhhvkh.jpeg?q=70&crop=false",
-        "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/y/x/n/l-os-100-vdorgnl-nvy-veirdo-original-imah256cdczaxbdt.jpeg?q=70&crop=false",
-        "https://example.com/classic-tshirt5.jpg"
-      ],
-      "clothType": "T-shirt",
-      "price": 499
-    },
-    {
-      "productId": 2,
-      "name": "Slim Fit Jeans",
-      "desc": "Denim jeans with a slim fit and modern look.",
-      "images": [
-        "https://example.com/jeans1.jpg",
-        "https://example.com/jeans2.jpg",
-        "https://example.com/jeans3.jpg",
-        "https://example.com/jeans4.jpg",
-        "https://example.com/jeans5.jpg"
-      ],
-      "clothType": "Jeans",
-      "price": 1199
-    },
-    {
-      "productId": 3,
-      "name": "V-Neck Sweater",
-      "desc": "Warm woolen sweater with a stylish v-neck.",
-      "images": [
-        "https://example.com/sweater1.jpg",
-        "https://example.com/sweater2.jpg",
-        "https://example.com/sweater3.jpg",
-        "https://example.com/sweater4.jpg",
-        "https://example.com/sweater5.jpg"
-      ],
-      "clothType": "Sweater",
-      "price": 799
-    },
-    {
-      "productId": 4,
-      "name": "Casual Shirt",
-      "desc": "Lightweight casual shirt perfect for daily wear.",
-      "images": [
-        "https://example.com/shirt1.jpg",
-        "https://example.com/shirt2.jpg",
-        "https://example.com/shirt3.jpg",
-        "https://example.com/shirt4.jpg",
-        "https://example.com/shirt5.jpg"
-      ],
-      "clothType": "Shirt",
-      "price": 699
-    },
-    {
-      "productId": 5,
-      "name": "Denim Jacket",
-      "desc": "Classic denim jacket with button closure.",
-      "images": [
-        "https://example.com/jacket1.jpg",
-        "https://example.com/jacket2.jpg",
-        "https://example.com/jacket3.jpg",
-        "https://example.com/jacket4.jpg",
-        "https://example.com/jacket5.jpg"
-      ],
-      "clothType": "Jacket",
-      "price": 1999
-    },
-    {
-      "productId": 6,
-      "name": "Cargo Pants",
-      "desc": "Durable cargo pants with multiple pockets.",
-      "images": [
-        "https://example.com/pants1.jpg",
-        "https://example.com/pants2.jpg",
-        "https://example.com/pants3.jpg",
-        "https://example.com/pants4.jpg",
-        "https://example.com/pants5.jpg"
-      ],
-      "clothType": "Pants",
-      "price": 1299
-    },
-    {
-      "productId": 7,
-      "name": "Hooded Sweatshirt",
-      "desc": "Soft hoodie with a drawstring hood.",
-      "images": [
-        "https://example.com/hoodie1.jpg",
-        "https://example.com/hoodie2.jpg",
-        "https://example.com/hoodie3.jpg",
-        "https://example.com/hoodie4.jpg",
-        "https://example.com/hoodie5.jpg"
-      ],
-      "clothType": "Sweatshirt",
-      "price": 899
-    },
-    {
-      "productId": 8,
-      "name": "Leather Jacket",
-      "desc": "Genuine leather jacket with a sleek design.",
-      "images": [
-        "https://example.com/jacket2.jpg",
-        "https://example.com/jacket3.jpg",
-        "https://example.com/jacket4.jpg",
-        "https://example.com/jacket5.jpg",
-        "https://example.com/jacket6.jpg"
-      ],
-      "clothType": "Jacket",
-      "price": 3999
-    },
-    {
-      "productId": 9,
-      "name": "Floral Dress",
-      "desc": "Beautiful floral print dress for summer.",
-      "images": [
-        "https://example.com/dress1.jpg",
-        "https://example.com/dress2.jpg",
-        "https://example.com/dress3.jpg",
-        "https://example.com/dress4.jpg",
-        "https://example.com/dress5.jpg"
-      ],
-      "clothType": "Dress",
-      "price": 1499
-    },
-    {
-      "productId": 10,
-      "name": "Graphic T-shirt",
-      "desc": "Trendy t-shirt with a bold graphic design.",
-      "images": [
-        "https://example.com/tshirt2.jpg",
-        "https://example.com/tshirt3.jpg",
-        "https://example.com/tshirt4.jpg",
-        "https://example.com/tshirt5.jpg",
-        "https://example.com/tshirt6.jpg"
-      ],
-      "clothType": "T-shirt",
-      "price": 599
-    },
-    {
-      "productId": 11,
-      "name": "Skinny Jeans",
-      "desc": "Stretchable skinny jeans for a modern look.",
-      "images": [
-        "https://example.com/jeans2.jpg",
-        "https://example.com/jeans3.jpg",
-        "https://example.com/jeans4.jpg",
-        "https://example.com/jeans5.jpg",
-        "https://example.com/jeans6.jpg"
-      ],
-      "clothType": "Jeans",
-      "price": 1099
-    },
-    {
-      "productId": 12,
-      "name": "Polo Shirt",
-      "desc": "Classic polo shirt in various colors.",
-      "images": [
-        "https://example.com/shirt2.jpg",
-        "https://example.com/shirt3.jpg",
-        "https://example.com/shirt4.jpg",
-        "https://example.com/shirt5.jpg",
-        "https://example.com/shirt6.jpg"
-      ],
-      "clothType": "Shirt",
-      "price": 799
-    },
-    {
-      "productId": 13,
-      "name": "Bomber Jacket",
-      "desc": "Stylish bomber jacket with ribbed cuffs.",
-      "images": [
-        "https://example.com/jacket3.jpg",
-        "https://example.com/jacket4.jpg",
-        "https://example.com/jacket5.jpg",
-        "https://example.com/jacket6.jpg",
-        "https://example.com/jacket7.jpg"
-      ],
-      "clothType": "Jacket",
-      "price": 2599
-    },
-    {
-      "productId": 14,
-      "name": "Chino Pants",
-      "desc": "Comfortable and stylish chino pants.",
-      "images": [
-        "https://example.com/pants2.jpg",
-        "https://example.com/pants3.jpg",
-        "https://example.com/pants4.jpg",
-        "https://example.com/pants5.jpg",
-        "https://example.com/pants6.jpg"
-      ],
-      "clothType": "Pants",
-      "price": 999
-    },
-    {
-      "productId": 15,
-      "name": "Oversized Hoodie",
-      "desc": "Cozy oversized hoodie for a relaxed fit.",
-      "images": [
-        "https://example.com/hoodie2.jpg",
-        "https://example.com/hoodie3.jpg",
-        "https://example.com/hoodie4.jpg",
-        "https://example.com/hoodie5.jpg",
-        "https://example.com/hoodie6.jpg"
-      ],
-      "clothType": "Sweatshirt",
-      "price": 1199
-    },
-    {
-      "productId": 16,
-      "name": "Maxi Dress",
-      "desc": "Elegant maxi dress with a flowing design.",
-      "images": [
-        "https://example.com/dress2.jpg",
-        "https://example.com/dress3.jpg",
-        "https://example.com/dress4.jpg",
-        "https://example.com/dress5.jpg",
-        "https://example.com/dress6.jpg"
-      ],
-      "clothType": "Dress",
-      "price": 1799
-    },
-    {
-      "productId": 17,
-      "name": "Striped T-shirt",
-      "desc": "Casual striped t-shirt made from soft fabric.",
-      "images": [
-        "https://example.com/tshirt3.jpg",
-        "https://example.com/tshirt4.jpg",
-        "https://example.com/tshirt5.jpg",
-        "https://example.com/tshirt6.jpg",
-        "https://example.com/tshirt7.jpg"
-      ],
-      "clothType": "T-shirt",
-      "price": 549
-    },
-    {
-      "productId": 18,
-      "name": "Distressed Jeans",
-      "desc": "Trendy distressed jeans with a vintage look.",
-      "images": [
-        "https://example.com/jeans3.jpg",
-        "https://example.com/jeans4.jpg",
-        "https://example.com/jeans5.jpg",
-        "https://example.com/jeans6.jpg",
-        "https://example.com/jeans7.jpg"
-      ],
-      "clothType": "Jeans",
-      "price": 1399
-    },
-    {
-      "productId": 19,
-      "name": "Checked Shirt",
-      "desc": "Classic checked shirt for a casual look.",
-      "images": [
-        "https://example.com/shirt3.jpg",
-        "https://example.com/shirt4.jpg",
-        "https://example.com/shirt5.jpg",
-        "https://example.com/shirt6.jpg",
-        "https://example.com/shirt7.jpg"
-      ],
-      "clothType": "Shirt",
-      "price": 849
-    },
-    {
-      "productId": 20,
-      "name": "Puffer Jacket",
-      "desc": "Warm puffer jacket with a zip-up front.",
-      "images": [
-        "https://example.com/jacket4.jpg",
-        "https://example.com/jacket5.jpg",
-        "https://example.com/jacket6.jpg",
-        "https://example.com/jacket7.jpg",
-        "https://example.com/jacket8.jpg"
-      ],
-      "clothType": "Jacket",
-      "price": 3499
-    }
-]
+  {
+    "productId": 1,
+    "name": "Classic T-shirt",
+    "desc": "Comfortable cotton t-shirt in various colors.",
+    "desc2": "This oversized, relaxed fit longline t-shirt features a brand logo typography print and is perfect for casual wear. The relaxed fit will make you feel at ease, while the longline and drop shoulder sleeves are always a great option for anyone who wants to feel free and relaxed. This amazing t-shirt is from the collection and can be paired with blue ribbed jeans and sneakers for a casual outing. This brand logo typography printed t-shirt is a must-have in your wardrobe collection.",
+    "images": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/j/p/v/l-os-100-vdorgnl-nvy-veirdo-original-imah256cvtzjwn5r.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/t/5/d/l-os-100-vdorgnl-nvy-veirdo-original-imah256ckqzvwrre.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/n/c/s/l-os-100-vdorgnl-nvy-veirdo-original-imah256cghzhhvkh.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/y/x/n/l-os-100-vdorgnl-nvy-veirdo-original-imah256cdczaxbdt.jpeg?q=70&crop=false",
+      "https://example.com/classic-tshirt5.jpg"
+    ],
+    "clothType": "T-shirt",
+    "price": 499
+  },
+  {
+    "productId": 2,
+    "name": "Slim Fit Jeans",
+    "desc": "Denim jeans with a slim fit and modern look.",
+    "desc2": "These slim fit jeans are crafted from high-quality denim, offering both style and comfort. The tailored silhouette flatters your figure while providing a modern touch. Ideal for both casual outings and semi-formal occasions, they pair perfectly with t-shirts, shirts, and jackets alike. The jeans feature a classic five-pocket design, ensuring you have plenty of space for your essentials. Available in a variety of washes, these jeans are a versatile addition to your wardrobe that you'll reach for again and again.",
+    "images": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/q/v/n/32-90397-slm-slmft-lghtbl-killer-original-imagvjj35pyrzh9q.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/p/d/u/32-90397-slm-slmft-lghtbl-killer-original-imagvjj3s7bkkzkt.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/3/7/o/32-90397-slm-slmft-lghtbl-killer-original-imagvjj3z9a5rhvr.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/o/6/k/32-90397-slm-slmft-lghtbl-killer-original-imagvjj3vnaaqera.jpeg?q=70&crop=false",
+      "https://example.com/jeans5.jpg"
+    ],
+    "clothType": "Jeans",
+    "price": 1199
+  },
+  {
+    "productId": 3,
+    "name": "V-Neck Sweater",
+    "desc": "Warm woolen sweater with a stylish v-neck.",
+    "desc2": "This V-neck sweater is the perfect blend of warmth and style, made from soft wool to keep you cozy during chilly days. The elegant design features a flattering V-neckline that can be dressed up or down, making it a versatile addition to your wardrobe. Pair it with jeans for a casual look or wear it over a button-up shirt for a more polished ensemble. Available in a range of colors, this sweater is sure to become your go-to choice for any occasion.",
+    "images": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sweater/e/u/y/-original-imagwkd28ebtdvz6.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sweater/j/y/0/-original-imagwkd2g8neh5x5.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sweater/c/g/n/-original-imagwkd2qzjzcvb5.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sweater/g/w/o/-original-imagwkd2hdufrzhs.jpeg?q=70&crop=false",
+      "https://example.com/sweater5.jpg"
+    ],
+    "clothType": "Sweater",
+    "price": 799
+  },
+  {
+    "productId": 4,
+    "name": "Casual Shirt",
+    "desc": "Lightweight casual shirt perfect for daily wear.",
+    "desc2": "Crafted from breathable fabric, this casual shirt is designed for comfort and style. Its lightweight material makes it ideal for warm days, while the relaxed fit ensures you can move freely. Featuring a classic collar and button-down front, it can be dressed up with chinos or worn casually with shorts. Available in various colors and patterns, this shirt is perfect for a day out, a picnic, or even a casual office environment.",
+    "images": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/v/z/c/-original-imagngzfhbjz2ezc.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/i/t/5/-original-imagngzfxt47zvs6.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/l/7/0/-original-imagngzftjktptye.jpeg?q=70&crop=false",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/k/a/p/-original-imagngzfmery9wqu.jpeg?q=70&crop=false",
+      "https://example.com/shirt5.jpg"
+    ],
+    "clothType": "Shirt",
+    "price": 699
+  },
+  {
+    "productId": 5,
+    "name": "Denim Jacket",
+    "desc": "Classic denim jacket with button closure.",
+    "desc2": "This classic denim jacket combines timeless style with modern functionality. Designed with a button closure and featuring two chest pockets, it’s perfect for layering over your favorite outfits. The durable denim fabric provides both warmth and a rugged aesthetic, making it suitable for various occasions. Whether you wear it over a t-shirt or dress it up with a shirt, this jacket adds an effortlessly cool vibe to your look.",
+    "images": [
+      "https://example.com/jacket1.jpg",
+      "https://example.com/jacket2.jpg",
+      "https://example.com/jacket3.jpg",
+      "https://example.com/jacket4.jpg",
+      "https://example.com/jacket5.jpg"
+    ],
+    "clothType": "Jacket",
+    "price": 1999
+  },
+  {
+    "productId": 6,
+    "name": "Cargo Pants",
+    "desc": "Durable cargo pants with multiple pockets.",
+    "desc2": "These cargo pants are designed for both style and practicality, featuring multiple pockets for all your essentials. Made from durable fabric, they are perfect for outdoor activities or casual outings. The relaxed fit provides comfort, while the adjustable waist ensures a secure fit. Available in various colors, these pants can be paired with a simple t-shirt or a stylish hoodie for a complete look.",
+    "images": [
+      "https://example.com/pants1.jpg",
+      "https://example.com/pants2.jpg",
+      "https://example.com/pants3.jpg",
+      "https://example.com/pants4.jpg",
+      "https://example.com/pants5.jpg"
+    ],
+    "clothType": "Pants",
+    "price": 1299
+  },
+  {
+    "productId": 7,
+    "name": "Hooded Sweatshirt",
+    "desc": "Soft hoodie with a drawstring hood.",
+    "desc2": "This hooded sweatshirt is your go-to for comfort and style. Made from soft, cozy fabric, it features a drawstring hood and kangaroo pocket, perfect for keeping warm on chilly days. The relaxed fit allows for easy layering, making it ideal for both lounging at home and casual outings. Available in various colors, this hoodie can be paired with jeans or joggers for a laid-back, stylish look.",
+    "images": [
+      "https://example.com/hoodie1.jpg",
+      "https://example.com/hoodie2.jpg",
+      "https://example.com/hoodie3.jpg",
+      "https://example.com/hoodie4.jpg",
+      "https://example.com/hoodie5.jpg"
+    ],
+    "clothType": "Sweatshirt",
+    "price": 899
+  },
+  {
+    "productId": 8,
+    "name": "Leather Jacket",
+    "desc": "Genuine leather jacket with a sleek design.",
+    "desc2": "This genuine leather jacket combines style and durability for a timeless addition to your wardrobe. Its fitted silhouette and quality leather provide both warmth and sophistication. Perfect for layering over a casual outfit or dressing up for a night out, this jacket is versatile and chic. Pair it with jeans and a tee for a classic look or dress it up with a skirt for a bold statement.",
+    "images": [
+      "https://example.com/jacket2.jpg",
+      "https://example.com/jacket3.jpg",
+      "https://example.com/jacket4.jpg",
+      "https://example.com/jacket5.jpg",
+      "https://example.com/jacket6.jpg"
+    ],
+    "clothType": "Jacket",
+    "price": 3999
+  },
+  {
+    "productId": 9,
+    "name": "Floral Dress",
+    "desc": "Beautiful floral print dress for summer.",
+    "desc2": "This stunning floral dress captures the essence of summer with its vibrant prints and flowing design. Perfect for beach outings or garden parties, its lightweight fabric ensures comfort all day long. The flattering cut enhances your silhouette, making it easy to wear with sandals or dress it up with heels for an evening look. Versatile and stylish, it’s a must-have for your warm-weather wardrobe.",
+    "images": [
+      "https://example.com/dress1.jpg",
+      "https://example.com/dress2.jpg",
+      "https://example.com/dress3.jpg",
+      "https://example.com/dress4.jpg",
+      "https://example.com/dress5.jpg"
+    ],
+    "clothType": "Dress",
+    "price": 1499
+  },
+  {
+    "productId": 10,
+    "name": "Graphic T-shirt",
+    "desc": "Trendy t-shirt with a bold graphic design.",
+    "desc2": "Express your unique style with this graphic t-shirt, featuring a striking design that stands out. Made from soft, breathable fabric, it ensures comfort during any activity. The relaxed fit makes it easy to pair with jeans, shorts, or skirts, making it a versatile choice for casual outings or lounging at home. Available in multiple colors, this tee is a fun addition to your everyday wardrobe.",
+    "images": [
+      "https://example.com/tshirt2.jpg",
+      "https://example.com/tshirt3.jpg",
+      "https://example.com/tshirt4.jpg",
+      "https://example.com/tshirt5.jpg",
+      "https://example.com/tshirt6.jpg"
+    ],
+    "clothType": "T-shirt",
+    "price": 599
+  },
+  {
+    "productId": 11,
+    "name": "Skinny Jeans",
+    "desc": "Stretchable skinny jeans for a modern look.",
+    "desc2": "These skinny jeans offer a sleek, modern fit that hugs your curves perfectly. Made with stretchable denim, they provide comfort and ease of movement throughout the day. The classic five-pocket design adds functionality, making these jeans ideal for both casual and smart-casual occasions. Pair them with a fitted top or an oversized sweater for a stylish ensemble.",
+    "images": [
+      "https://example.com/jeans2.jpg",
+      "https://example.com/jeans3.jpg",
+      "https://example.com/jeans4.jpg",
+      "https://example.com/jeans5.jpg",
+      "https://example.com/jeans6.jpg"
+    ],
+    "clothType": "Jeans",
+    "price": 1099
+  },
+  {
+    "productId": 12,
+    "name": "Polo Shirt",
+    "desc": "Classic polo shirt in various colors.",
+    "desc2": "This classic polo shirt is a versatile addition to any wardrobe, crafted from soft, breathable fabric for all-day comfort. Featuring a traditional collar and button placket, it's perfect for both casual and smart-casual settings. Pair it with chinos or shorts for a relaxed look or dress it up with slacks for a polished appearance. Available in a range of colors to suit your personal style.",
+    "images": [
+      "https://example.com/shirt2.jpg",
+      "https://example.com/shirt3.jpg",
+      "https://example.com/shirt4.jpg",
+      "https://example.com/shirt5.jpg",
+      "https://example.com/shirt6.jpg"
+    ],
+    "clothType": "Shirt",
+    "price": 799
+  },
+  {
+    "productId": 13,
+    "name": "Bomber Jacket",
+    "desc": "Stylish bomber jacket with ribbed cuffs.",
+    "desc2": "This stylish bomber jacket combines a modern aesthetic with comfort. Featuring ribbed cuffs and a soft lining, it’s perfect for layering over casual outfits. The durable fabric ensures warmth without bulk, making it ideal for cooler days. Pair it with jeans and a t-shirt for a laid-back look, or wear it over a dress for a trendy contrast. This jacket is a must-have for any fashion enthusiast.",
+    "images": [
+      "https://example.com/jacket3.jpg",
+      "https://example.com/jacket4.jpg",
+      "https://example.com/jacket5.jpg",
+      "https://example.com/jacket6.jpg",
+      "https://example.com/jacket7.jpg"
+    ],
+    "clothType": "Jacket",
+    "price": 2599
+  },
+  {
+    "productId": 14,
+    "name": "Chino Pants",
+    "desc": "Comfortable and stylish chino pants.",
+    "desc2": "These chino pants combine comfort with a polished look, making them suitable for a variety of occasions. Crafted from soft fabric, they provide a tailored fit that flatters your figure. Ideal for casual outings or semi-formal events, they can be easily paired with a button-down shirt or a simple t-shirt. Available in several colors, these chinos are a versatile addition to your wardrobe.",
+    "images": [
+      "https://example.com/pants2.jpg",
+      "https://example.com/pants3.jpg",
+      "https://example.com/pants4.jpg",
+      "https://example.com/pants5.jpg",
+      "https://example.com/pants6.jpg"
+    ],
+    "clothType": "Pants",
+    "price": 999
+  },
+  {
+    "productId": 15,
+    "name": "Oversized Hoodie",
+    "desc": "Cozy oversized hoodie for a relaxed fit.",
+    "desc2": "This oversized hoodie is the ultimate in comfort, perfect for lounging or casual outings. Made from soft, plush fabric, it features a spacious fit and a drawstring hood for added warmth. Ideal for layering over your favorite t-shirt or wearing solo, it pairs effortlessly with joggers or jeans. Available in various colors, this hoodie will quickly become your go-to for relaxed days.",
+    "images": [
+      "https://example.com/hoodie2.jpg",
+      "https://example.com/hoodie3.jpg",
+      "https://example.com/hoodie4.jpg",
+      "https://example.com/hoodie5.jpg",
+      "https://example.com/hoodie6.jpg"
+    ],
+    "clothType": "Sweatshirt",
+    "price": 1199
+  },
+  {
+    "productId": 16,
+    "name": "Maxi Dress",
+    "desc": "Elegant maxi dress with a flowing design.",
+    "desc2": "This elegant maxi dress is designed to flow beautifully, providing a flattering silhouette for all body types. Made from lightweight, breathable fabric, it's perfect for warm weather events like weddings or beach outings. The dress features stylish prints and a comfortable fit, allowing for easy movement. Pair it with sandals for a casual look or dress it up with heels for a special occasion.",
+    "images": [
+      "https://example.com/dress2.jpg",
+      "https://example.com/dress3.jpg",
+      "https://example.com/dress4.jpg",
+      "https://example.com/dress5.jpg",
+      "https://example.com/dress6.jpg"
+    ],
+    "clothType": "Dress",
+    "price": 1799
+  },
+  {
+    "productId": 17,
+    "name": "Striped T-shirt",
+    "desc": "Casual striped t-shirt made from soft fabric.",
+    "desc2": "This casual striped t-shirt is crafted from soft, breathable fabric, making it perfect for everyday wear. The classic striped pattern adds a stylish touch, and the relaxed fit ensures comfort throughout the day. Ideal for pairing with shorts, jeans, or skirts, this t-shirt is versatile enough for a variety of occasions, from brunch to casual outings with friends.",
+    "images": [
+      "https://example.com/tshirt3.jpg",
+      "https://example.com/tshirt4.jpg",
+      "https://example.com/tshirt5.jpg",
+      "https://example.com/tshirt6.jpg",
+      "https://example.com/tshirt7.jpg"
+    ],
+    "clothType": "T-shirt",
+    "price": 549
+  },
+  {
+    "productId": 18,
+    "name": "Distressed Jeans",
+    "desc": "Trendy distressed jeans for a casual look.",
+    "desc2": "These trendy distressed jeans feature a relaxed fit and stylish rips, perfect for creating a casual, laid-back vibe. Made from high-quality denim, they provide both comfort and durability. Pair them with a graphic tee or a cozy sweater for a chic, effortless outfit. Ideal for weekend outings or casual gatherings, these jeans will quickly become a staple in your wardrobe.",
+    "images": [
+      "https://example.com/jeans3.jpg",
+      "https://example.com/jeans4.jpg",
+      "https://example.com/jeans5.jpg",
+      "https://example.com/jeans6.jpg",
+      "https://example.com/jeans7.jpg"
+    ],
+    "clothType": "Jeans",
+    "price": 1399
+  },
+  {
+    "productId": 19,
+    "name": "Checked Shirt",
+    "desc": "Classic checked shirt for a casual look.",
+    "desc2": "This classic checked shirt combines comfort and style, making it perfect for everyday wear. Crafted from soft fabric, it features a relaxed fit and button-up design. The timeless check pattern adds a touch of sophistication, allowing it to be dressed up or down easily. Pair it with jeans or chinos for a casual outing, or layer it under a jacket for added warmth during cooler months.",
+    "images": [
+      "https://example.com/shirt3.jpg",
+      "https://example.com/shirt4.jpg",
+      "https://example.com/shirt5.jpg",
+      "https://example.com/shirt6.jpg",
+      "https://example.com/shirt7.jpg"
+    ],
+    "clothType": "Shirt",
+    "price": 849
+  },
+  {
+    "productId": 20,
+    "name": "Puffer Jacket",
+    "desc": "Warm puffer jacket with a zip-up front.",
+    "desc2": "Stay warm and stylish with this puffer jacket, designed to provide ultimate comfort in cold weather. Its padded design offers excellent insulation, while the zip-up front adds convenience and a modern touch. Featuring a sleek silhouette and adjustable features, this jacket is perfect for layering over sweaters or hoodies. Whether you're heading out for a casual stroll or running errands, this versatile piece will keep you cozy and fashionable.",
+    "images": [
+      "https://example.com/jacket4.jpg",
+      "https://example.com/jacket5.jpg",
+      "https://example.com/jacket6.jpg",
+      "https://example.com/jacket7.jpg",
+      "https://example.com/jacket8.jpg"
+    ],
+    "clothType": "Jacket",
+    "price": 3499
+  }
+]  

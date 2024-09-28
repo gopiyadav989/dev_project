@@ -1,56 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products</title>
-    <link rel="stylesheet" href="../css/allproduct.css">
-    <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>All Products</title>
+        <link rel="stylesheet" href="../css/allproduct.css" />
+        <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         />
-</head>
-<body>
-    <section id="header">
-        <a href="#" class="logo">CoolKart</a>
-        <div id="burger-menu" class="burger-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    </head>
+    <body>
+        <section id="header">
+            <a href="#" class="logo">CoolKart</a>
+            <div id="burger-menu" class="burger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div id="navbar-container">
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="allproduct.html">Shop</a></li>
+                    <li><a href="orderhistory.html">Previous Orders</a></li>
+                    <li>
+                        <a href="cart.html"
+                            ><i class="fa-solid fa-cart-shopping"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <h1>Product Listings.</h1>
+        <div class="filters">
+            <div>
+                <label for="clothTypeFilter">Filter by Type:</label>
+                <select id="clothTypeFilter">
+                    <option value="">All Type</option>
+                </select>
+            </div>
+            <div>
+                <label for="priceSort">Sort by Price:</label>
+                <select id="priceSort">
+                    <option value="default">Default</option>
+                    <option value="asc">Low to High</option>
+                    <option value="desc">High to Low</option>
+                </select>
+            </div>
         </div>
-        <div id="navbar-container">
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="allproduct.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li>
-                    <a href="cart.html"
-                        ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <h1>Product Listings.</h1>
-    <div class="filters">
-        <div>
-            <label for="clothTypeFilter">Filter by Type:</label>
-            <select id="clothTypeFilter">
-                <option value="">All Type</option>
-            </select>
-        </div>
-        <div>
-            <label for="priceSort">Sort by Price:</label>
-            <select id="priceSort">
-                <option value="default">Default</option>
-                <option value="asc">Low to High</option>
-                <option value="desc">High to Low</option>
-            </select>
-        </div>
-    </div>
-    <div id="product-container" class="product-container"></div>
-    <script src="../js/allproduct.js"></script>
-</body>
+        <div id="product-container" class="product-container"></div>
+        <script src="../js/allproduct.js"></script>
+    </body>
 </html>
